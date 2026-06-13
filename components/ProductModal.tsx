@@ -69,17 +69,6 @@ export default function ProductModal({
           : 'bg-white'
       }`}>
         <div className="max-h-[85vh] overflow-y-auto scrollbar-hide">
-          <button
-            onClick={onClose}
-            className={`absolute right-4 top-4 p-2 rounded-full transition-colors z-50 ${
-              theme === 'dark'
-                ? 'bg-black/60 hover:bg-black/80 text-white backdrop-blur-sm'
-                : 'bg-white/60 hover:bg-white/80 text-gray-900 backdrop-blur-sm'
-            }`}
-          >
-            <X className="w-5 h-5" />
-          </button>
-
           {/* Product Image */}
           <div className="relative h-56 bg-gradient-to-br from-orange-400 via-red-500 to-orange-600 overflow-hidden">
             <div className="absolute inset-0 bg-black/20"></div>
@@ -267,25 +256,6 @@ export default function ProductModal({
                     }`}
                   >
                     {ingredient}
-                  </Badge>
-                ))}
-              </div>
-            </div>
-
-            {/* Allergens */}
-            <div className="mt-5">
-              <h3 className={`text-lg font-bold mb-2 ${
-                theme === 'dark' ? 'text-white' : 'text-gray-900'
-              }`}>
-                Allergen Information
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {allergens.map((allergen, index) => (
-                  <Badge
-                    key={index}
-                    className="bg-red-500/20 text-red-500 hover:bg-red-500/20 text-xs py-1.5 px-3"
-                  >
-                    ⚠️ {allergen}
                   </Badge>
                 ))}
               </div>
