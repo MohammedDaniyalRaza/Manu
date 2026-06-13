@@ -1,0 +1,218 @@
+{
+  "restaurant": {
+    "name": "Depizza Town",
+    "location": "Gulshan-e-Iqbal, Karachi, Pakistan",
+    "currency": "PKR"
+  },
+  "categories": [
+    {
+      "id": "pizzas",
+      "name": "Pizzas",
+      "icon": "🍕",
+      "items": [
+        { "id": 1, "name": "Margherita Pizza", "description": "Classic tomato sauce, mozzarella, fresh basil", "price": 899, "size": "Medium" },
+        { "id": 2, "name": "Margherita Pizza", "description": "Classic tomato sauce, mozzarella, fresh basil", "price": 1299, "size": "Large" },
+        { "id": 3, "name": "Pepperoni Pizza", "description": "Loaded with pepperoni slices and cheese", "price": 1099, "size": "Medium" },
+        { "id": 4, "name": "Pepperoni Pizza", "description": "Loaded with pepperoni slices and cheese", "price": 1499, "size": "Large" },
+        { "id": 5, "name": "BBQ Chicken Pizza", "description": "Grilled chicken, BBQ sauce, onions, bell peppers", "price": 1199, "size": "Medium" },
+        { "id": 6, "name": "BBQ Chicken Pizza", "description": "Grilled chicken, BBQ sauce, onions, bell peppers", "price": 1599, "size": "Large" },
+        { "id": 7, "name": "Chicken Tikka Pizza", "description": "Spicy chicken tikka, onions, capsicum", "price": 1299, "size": "Medium" },
+        { "id": 8, "name": "Chicken Tikka Pizza", "description": "Spicy chicken tikka, onions, capsicum", "price": 1699, "size": "Large" },
+        { "id": 9, "name": "Vegetable Supreme", "description": "Mushrooms, olives, onions, tomatoes, bell peppers", "price": 999, "size": "Medium" },
+        { "id": 10, "name": "Vegetable Supreme", "description": "Mushrooms, olives, onions, tomatoes, bell peppers", "price": 1399, "size": "Large" },
+        { "id": 11, "name": "Chicken Fajita Pizza", "description": "Chicken strips, onions, capsicum, special fajita sauce", "price": 1199, "size": "Medium" },
+        { "id": 12, "name": "Chicken Fajita Pizza", "description": "Chicken strips, onions, capsicum, special fajita sauce", "price": 1599, "size": "Large" },
+        { "id": 13, "name": "Four Cheese Pizza", "description": "Mozzarella, cheddar, parmesan, cream cheese", "price": 1299, "size": "Medium" },
+        { "id": 14, "name": "Four Cheese Pizza", "description": "Mozzarella, cheddar, parmesan, cream cheese", "price": 1699, "size": "Large" },
+        { "id": 15, "name": "Mexican Pizza", "description": "Spicy beef, jalapeños, onions, hot sauce", "price": 1399, "size": "Medium" },
+        { "id": 16, "name": "Mexican Pizza", "description": "Spicy beef, jalapeños, onions, hot sauce", "price": 1799, "size": "Large" }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "icon": "🍔",
+      "items": [
+        { "id": 17, "name": "Classic Beef Burger", "description": "Beef patty, lettuce, tomato, cheese, special sauce", "price": 499 },
+        { "id": 18, "name": "Chicken Burger", "description": "Crispy chicken fillet, lettuce, mayo", "price": 449 },
+        { "id": 19, "name": "Zinger Burger", "description": "Spicy crispy chicken, lettuce, mayo, cheese", "price": 549 },
+        { "id": 20, "name": "Double Decker Burger", "description": "Two beef patties, double cheese, special sauce", "price": 799 },
+        { "id": 21, "name": "Chicken Cheese Burger", "description": "Grilled chicken, melted cheese, lettuce", "price": 499 },
+        { "id": 22, "name": "BBQ Burger", "description": "Beef patty, BBQ sauce, onion rings, cheese", "price": 599 },
+        { "id": 23, "name": "Mushroom Swiss Burger", "description": "Beef patty, sautéed mushrooms, Swiss cheese", "price": 649 },
+        { "id": 24, "name": "Veggie Burger", "description": "Vegetable patty, lettuce, tomato, mayo", "price": 399 }
+      ]
+    },
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "icon": "🥙",
+      "items": [
+        { "id": 25, "name": "Chicken Wings (6 pcs)", "description": "Crispy wings with choice of sauce", "price": 599 },
+        { "id": 26, "name": "Chicken Wings (12 pcs)", "description": "Crispy wings with choice of sauce", "price": 999 },
+        { "id": 27, "name": "Garlic Bread", "description": "Toasted bread with garlic butter", "price": 299 },
+        { "id": 28, "name": "Cheesy Garlic Bread", "description": "Garlic bread topped with melted cheese", "price": 399 },
+        { "id": 29, "name": "Chicken Nuggets (6 pcs)", "description": "Golden fried chicken nuggets", "price": 449 },
+        { "id": 30, "name": "Chicken Nuggets (12 pcs)", "description": "Golden fried chicken nuggets", "price": 749 },
+        { "id": 31, "name": "French Fries", "description": "Crispy golden fries", "price": 249 },
+        { "id": 32, "name": "Loaded Fries", "description": "Fries topped with cheese, jalapeños, sauces", "price": 449 },
+        { "id": 33, "name": "Onion Rings", "description": "Crispy battered onion rings", "price": 349 },
+        { "id": 34, "name": "Mozzarella Sticks (6 pcs)", "description": "Fried mozzarella with marinara sauce", "price": 599 }
+      ]
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "icon": "🍝",
+      "items": [
+        { "id": 35, "name": "Chicken Alfredo Pasta", "description": "Creamy alfredo sauce with grilled chicken", "price": 799 },
+        { "id": 36, "name": "Beef Bolognese", "description": "Traditional meat sauce with spaghetti", "price": 849 },
+        { "id": 37, "name": "Penne Arrabiata", "description": "Spicy tomato sauce with penne pasta", "price": 649 },
+        { "id": 38, "name": "Chicken Pesto Pasta", "description": "Basil pesto sauce with chicken", "price": 799 },
+        { "id": 39, "name": "Vegetable Pasta", "description": "Mixed vegetables in white sauce", "price": 599 },
+        { "id": 40, "name": "Lasagna", "description": "Layered pasta with meat and cheese", "price": 899 }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches & Wraps",
+      "icon": "🌯",
+      "items": [
+        { "id": 41, "name": "Club Sandwich", "description": "Triple decker with chicken, egg, vegetables", "price": 599 },
+        { "id": 42, "name": "Chicken Caesar Wrap", "description": "Grilled chicken, lettuce, Caesar dressing", "price": 549 },
+        { "id": 43, "name": "Beef Shawarma", "description": "Spiced beef in Arabic bread", "price": 449 },
+        { "id": 44, "name": "Chicken Shawarma", "description": "Marinated chicken in Arabic bread", "price": 399 },
+        { "id": 45, "name": "Falafel Wrap", "description": "Crispy falafel, hummus, vegetables", "price": 349 },
+        { "id": 46, "name": "Grilled Chicken Sandwich", "description": "Grilled chicken breast, lettuce, mayo", "price": 499 }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice & Biryani",
+      "icon": "🍛",
+      "items": [
+        { "id": 47, "name": "Chicken Biryani", "description": "Aromatic basmati rice with spiced chicken", "price": 599 },
+        { "id": 48, "name": "Beef Biryani", "description": "Aromatic basmati rice with tender beef", "price": 699 },
+        { "id": 49, "name": "Chicken Fried Rice", "description": "Stir-fried rice with chicken and vegetables", "price": 549 },
+        { "id": 50, "name": "Vegetable Fried Rice", "description": "Stir-fried rice with mixed vegetables", "price": 449 },
+        { "id": 51, "name": "Chicken Pulao", "description": "Fragrant rice cooked with chicken", "price": 549 }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": "Salads",
+      "icon": "🥗",
+      "items": [
+        { "id": 52, "name": "Caesar Salad", "description": "Romaine lettuce, croutons, parmesan, Caesar dressing", "price": 449 },
+        { "id": 53, "name": "Greek Salad", "description": "Cucumbers, tomatoes, olives, feta cheese", "price": 499 },
+        { "id": 54, "name": "Chicken Caesar Salad", "description": "Caesar salad topped with grilled chicken", "price": 599 },
+        { "id": 55, "name": "Garden Fresh Salad", "description": "Mixed greens with seasonal vegetables", "price": 349 }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "icon": "🍰",
+      "items": [
+        { "id": 56, "name": "Chocolate Brownie", "description": "Warm brownie with chocolate sauce", "price": 399 },
+        { "id": 57, "name": "Lava Cake", "description": "Molten chocolate cake with ice cream", "price": 549 },
+        { "id": 58, "name": "Cheesecake", "description": "Classic New York style cheesecake", "price": 499 },
+        { "id": 59, "name": "Tiramisu", "description": "Italian coffee-flavored dessert", "price": 599 },
+        { "id": 60, "name": "Ice Cream (2 scoops)", "description": "Choice of flavors: vanilla, chocolate, strawberry", "price": 299 },
+        { "id": 61, "name": "Fruit Salad", "description": "Fresh seasonal fruits", "price": 349 }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "🥤",
+      "items": [
+        { "id": 62, "name": "Coca Cola", "description": "Chilled soft drink", "price": 149, "size": "Regular" },
+        { "id": 63, "name": "Coca Cola", "description": "Chilled soft drink", "price": 199, "size": "1.5L" },
+        { "id": 64, "name": "Pepsi", "description": "Chilled soft drink", "price": 149, "size": "Regular" },
+        { "id": 65, "name": "Sprite", "description": "Lemon-lime soft drink", "price": 149, "size": "Regular" },
+        { "id": 66, "name": "Fanta", "description": "Orange flavored drink", "price": 149, "size": "Regular" },
+        { "id": 67, "name": "Mineral Water", "description": "Chilled bottled water", "price": 99 },
+        { "id": 68, "name": "Fresh Lime Juice", "description": "Freshly squeezed lime with mint", "price": 199 },
+        { "id": 69, "name": "Mango Juice", "description": "Fresh mango juice", "price": 249 },
+        { "id": 70, "name": "Orange Juice", "description": "Fresh orange juice", "price": 249 },
+        { "id": 71, "name": "Mint Margarita", "description": "Refreshing mint lemonade", "price": 249 },
+        { "id": 72, "name": "Coffee", "description": "Hot brewed coffee", "price": 199 },
+        { "id": 73, "name": "Tea", "description": "Hot tea (Doodh Patti/Black)", "price": 99 },
+        { "id": 74, "name": "Iced Coffee", "description": "Cold coffee with ice cream", "price": 349 },
+        { "id": 75, "name": "Milkshake - Chocolate", "description": "Creamy chocolate milkshake", "price": 399 },
+        { "id": 76, "name": "Milkshake - Vanilla", "description": "Creamy vanilla milkshake", "price": 399 },
+        { "id": 77, "name": "Milkshake - Strawberry", "description": "Creamy strawberry milkshake", "price": 399 },
+        { "id": 78, "name": "Lassi", "description": "Traditional yogurt drink", "price": 199 }
+      ]
+    },
+    {
+      "id": "deals",
+      "name": "Special Deals",
+      "icon": "🎉",
+      "items": [
+        { "id": 79, "name": "Family Deal 1", "description": "Large Pizza + 1.5L Drink + Garlic Bread", "price": 1999 },
+        { "id": 80, "name": "Family Deal 2", "description": "2 Medium Pizzas + 1.5L Drink + Fries", "price": 2499 },
+        { "id": 81, "name": "Burger Combo", "description": "Any Burger + Fries + Drink", "price": 699 },
+        { "id": 82, "name": "Student Deal", "description": "Medium Pizza + 2 Drinks", "price": 1299 },
+        { "id": 83, "name": "Couple Deal", "description": "2 Burgers + 2 Fries + 2 Drinks", "price": 1299 },
+        { "id": 84, "name": "Party Deal", "description": "3 Large Pizzas + 2x 1.5L Drinks + 12 Wings", "price": 4999 },
+        { "id": 85, "name": "Midnight Deal", "description": "Large Pizza + Wings + 1.5L Drink", "price": 2199 },
+        { "id": 86, "name": "Value Deal", "description": "Medium Pizza + 6 Wings + Drink", "price": 1499 }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "icon": "🍳",
+      "items": [
+        { "id": 87, "name": "English Breakfast", "description": "Eggs, sausage, beans, toast, hash brown", "price": 699 },
+        { "id": 88, "name": "Omelette", "description": "3-egg omelette with cheese and vegetables", "price": 399 },
+        { "id": 89, "name": "Pancakes", "description": "Stack of 3 fluffy pancakes with syrup", "price": 449 },
+        { "id": 90, "name": "French Toast", "description": "Golden toast with honey and butter", "price": 399 },
+        { "id": 91, "name": "Paratha with Omelette", "description": "Desi paratha with 2-egg omelette", "price": 299 },
+        { "id": 92, "name": "Halwa Puri", "description": "Traditional breakfast with chana", "price": 349 }
+      ]
+    },
+    {
+      "id": "specialties",
+      "name": "House Specialties",
+      "icon": "⭐",
+      "items": [
+        { "id": 93, "name": "Depizza Special Pizza", "description": "Secret recipe with premium toppings", "price": 1899, "size": "Large" },
+        { "id": 94, "name": "Signature Steak Pizza", "description": "Tender steak, mushrooms, special sauce", "price": 1999, "size": "Large" },
+        { "id": 95, "name": "Seafood Pizza", "description": "Shrimp, calamari, special herbs", "price": 2199, "size": "Large" },
+        { "id": 96, "name": "Buffalo Chicken Pizza", "description": "Spicy buffalo sauce, chicken, ranch drizzle", "price": 1699, "size": "Large" },
+        { "id": 97, "name": "Monster Burger", "description": "Triple patty, triple cheese, special sauce", "price": 1199 },
+        { "id": 98, "name": "Gourmet Chicken Burger", "description": "Premium chicken with truffle mayo", "price": 899 },
+        { "id": 99, "name": "Steak Sandwich", "description": "Grilled steak, caramelized onions, cheese", "price": 949 },
+        { "id": 100, "name": "Seafood Pasta", "description": "Shrimp and calamari in creamy sauce", "price": 1299 }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Extra Sides",
+      "icon": "🍟",
+      "items": [
+        { "id": 101, "name": "Coleslaw", "description": "Fresh cabbage salad", "price": 199 },
+        { "id": 102, "name": "Corn on the Cob", "description": "Grilled corn with butter", "price": 249 },
+        { "id": 103, "name": "Potato Wedges", "description": "Seasoned crispy wedges", "price": 299 },
+        { "id": 104, "name": "Mac and Cheese", "description": "Creamy macaroni and cheese", "price": 449 },
+        { "id": 105, "name": "Jalapeño Poppers", "description": "Cheese-stuffed jalapeños (6 pcs)", "price": 549 }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces & Extras",
+      "icon": "🧂",
+      "items": [
+        { "id": 106, "name": "Garlic Mayo", "description": "Creamy garlic sauce", "price": 49 },
+        { "id": 107, "name": "BBQ Sauce", "description": "Smoky barbecue sauce", "price": 49 },
+        { "id": 108, "name": "Hot Sauce", "description": "Spicy chili sauce", "price": 49 },
+        { "id": 109, "name": "Ranch Dressing", "description": "Cool ranch sauce", "price": 49 },
+        { "id": 110, "name": "Cheese Dip", "description": "Melted cheese sauce", "price": 99 },
+        { "id": 111, "name": "Extra Cheese", "description": "Additional cheese topping", "price": 149 }
+      ]
+    }
+  ]
+}

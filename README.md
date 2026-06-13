@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Depizza Town - Digital Menu 🍕
 
-## Getting Started
+A premium, fully responsive digital menu for Depizza Town restaurant located in Gulshan-e-Iqbal, Karachi, Pakistan.
 
-First, run the development server:
+## Features ✨
 
+- **111 Products** across 14 categories
+- **Advanced Search** - Real-time search with intelligent suggestions (like YouTube/Google)
+- **Dark/Light Theme Toggle** - Modern black/gray and white themes (fixed visibility issue)
+- **1-Second Loading Animation** with spinning pizza logo
+- **Premium Animations** - Smooth transitions, hover effects, and scroll animations
+- **Professional Header** - Redesigned with modern layout and brand visibility
+- **Fully Responsive** - Works perfectly on all devices
+- **Fixed Footer** - Professional layout with footer at bottom
+- **Smooth Scrolling** - Beautiful category navigation with horizontal scroll
+- **Modern Design** - Gradient effects and premium styling
+- **shadcn/ui Components** - Professional UI components for better UX
+
+## Categories 📋
+
+1. 🍕 Pizzas (16 items)
+2. 🍔 Burgers (8 items)
+3. 🥙 Appetizers (10 items)
+4. 🍝 Pasta (6 items)
+5. 🌯 Sandwiches & Wraps (6 items)
+6. 🍛 Rice & Biryani (5 items)
+7. 🥗 Salads (4 items)
+8. 🍰 Desserts (6 items)
+9. 🥤 Beverages (17 items)
+10. 🎉 Special Deals (8 items)
+11. 🍳 Breakfast (6 items)
+12. ⭐ House Specialties (8 items)
+13. 🍟 Extra Sides (5 items)
+14. 🧂 Sauces & Extras (6 items)
+
+## Tech Stack 💻
+
+- Next.js 16.2.9
+- React 19.2.4
+- TypeScript 5
+- Tailwind CSS 4
+- JSON data structure
+
+## Getting Started 🚀
+
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Build for production:
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Menu Data Structure 📊
 
-To learn more about Next.js, take a look at the following resources:
+The menu is stored in `/data/menu.json` with the following structure:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```json
+{
+  "restaurant": {
+    "name": "Depizza Town",
+    "location": "Gulshan-e-Iqbal, Karachi, Pakistan",
+    "currency": "PKR"
+  },
+  "categories": [
+    {
+      "id": "category-id",
+      "name": "Category Name",
+      "icon": "🍕",
+      "items": [
+        {
+          "id": 1,
+          "name": "Item Name",
+          "description": "Item description",
+          "price": 999,
+          "size": "Medium"
+        }
+      ]
+    }
+  ]
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Customization 🎨
 
-## Deploy on Vercel
+### Adding New Items
+Edit `/data/menu.json` and add items to the appropriate category.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Changing Colors
+The theme uses Tailwind CSS. Main colors:
+- Orange: `orange-500`, `orange-600`
+- Red: `red-500`, `red-600`
+- Dark mode: `gray-800`, `gray-900`, `black`
+- Light mode: `white`, `gray-50`, `gray-100`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Modifying Categories
+Add new categories in `menu.json` with a unique `id`, `name`, and `icon`.
+
+## QR Code Integration 📱
+
+Once deployed, generate a QR code pointing to your website URL. Customers can scan it to view the menu on their phones.
+
+Recommended QR code generators:
+- qr-code-generator.com
+- qrcode-monkey.com
+
+## Deployment 🌐
+
+Deploy to Vercel (recommended):
+
+```bash
+npm run build
+# Deploy via Vercel CLI or GitHub integration
+```
+
+Or any other Next.js hosting platform:
+- Netlify
+- AWS Amplify
+- Railway
+
+## Contact 📞
+
+**Depizza Town**  
+Location: Gulshan-e-Iqbal, Karachi, Pakistan  
+Owner: Mohammad Daniyal
+
+---
+
+Made with ❤️ for food lovers
