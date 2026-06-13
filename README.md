@@ -5,8 +5,15 @@ A premium, fully responsive digital menu for Depizza Town restaurant located in 
 ## Features ✨
 
 - **111 Products** across 14 categories
+- **Product Details Modal** - Click any product to view detailed information:
+  - Full product description
+  - Nutrition facts (Calories, Protein, Carbs, Fat)
+  - Ingredients list
+  - Allergen information
+  - Pricing and serving size
 - **Advanced Search** - Real-time search with intelligent suggestions (like YouTube/Google)
-- **Dark/Light Theme Toggle** - Modern black/gray and white themes (fixed visibility issue)
+- **Dark/Light Theme Toggle** - Modern black/gray and white themes
+- **Social Media Integration** - Instagram and TikTok links in header
 - **1-Second Loading Animation** with spinning pizza logo
 - **Premium Animations** - Smooth transitions, hover effects, and scroll animations
 - **Professional Header** - Redesigned with modern layout and brand visibility
@@ -15,6 +22,7 @@ A premium, fully responsive digital menu for Depizza Town restaurant located in 
 - **Smooth Scrolling** - Beautiful category navigation with horizontal scroll
 - **Modern Design** - Gradient effects and premium styling
 - **shadcn/ui Components** - Professional UI components for better UX
+- **Modular Architecture** - Separated components for better performance and maintainability
 
 ## Categories 📋
 
@@ -39,7 +47,34 @@ A premium, fully responsive digital menu for Depizza Town restaurant located in 
 - React 19.2.4
 - TypeScript 5
 - Tailwind CSS 4
+- shadcn/ui Components (Dialog, Input, Badge, Button)
+- lucide-react Icons
 - JSON data structure
+
+## Project Structure 📁
+
+```
+manue-bar/
+├── app/
+│   ├── page.tsx           # Main page with state management
+│   ├── layout.tsx         # Root layout
+│   └── globals.css        # Global styles
+├── components/
+│   ├── Header.tsx         # Header with social media & theme toggle
+│   ├── SearchBar.tsx      # Search with suggestions
+│   ├── CategoryNav.tsx    # Category navigation
+│   ├── ProductCard.tsx    # Individual product card
+│   ├── ProductModal.tsx   # Product details modal
+│   └── ui/                # shadcn/ui components
+│       ├── dialog.tsx
+│       ├── input.tsx
+│       ├── badge.tsx
+│       └── button.tsx
+├── data/
+│   └── menu.json          # Menu data (111 products)
+└── lib/
+    └── utils.ts           # Utility functions
+```
 
 ## Getting Started 🚀
 
